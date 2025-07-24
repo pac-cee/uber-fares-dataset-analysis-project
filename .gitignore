@@ -1,0 +1,68 @@
+# Instruction and guidance files (keep locally, don't push to repository)
+tableau_dashboard_instructions.txt
+data_analysis_instructions.txt
+project_instructions.txt
+*_instructions.txt
+*_guide.txt
+*_tutorial.txt
+README_instructions.md
+
+# Python virtual environment
+uber_analysis_env/
+venv/
+env/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Log files
+*.log
+logs/
+
+# Data backup files (keep originals)
+*_backup.*
+*_copy.*
+*_old.*
+
+# Large data files that shouldn't be in git (if any)
+*.zip
+*.tar.gz
+*.rar
+
+# Kaggle credentials (security)
+kaggle.json
+
+# Any personal notes or drafts
+notes.txt
+draft*.txt
+personal_*.txt
