@@ -350,7 +350,54 @@ We created 23 new features across four categories, significantly enhancing the a
 - Customer lifetime value analysis
 - Competitive pricing analysis
 
-## 8. Conclusion
+## 8. Interactive Dashboard
+
+To provide a comprehensive and accessible view of our analysis findings, we developed an interactive dashboard that consolidates all key insights into a single, user-friendly interface.
+
+![Uber Interactive Dashboard](uber_interactive_dashboard_screenshot.png)
+*Figure 12: Interactive Dashboard Overview - Comprehensive visualization suite showing fare distribution, temporal patterns, geographic analysis, and key performance indicators*
+
+### 8.1 Dashboard Features
+
+**Six Key Visualization Panels:**
+
+1. **Fare Distribution (Top Left):** Histogram showing the distribution of fare amounts with clear right-skewed pattern, confirming our statistical analysis of fare concentration in the $5-15 range
+
+2. **Hourly Ride Patterns (Top Right):** Time series visualization displaying the classic dual-peak pattern with morning (8 AM) and evening (7 PM) rush hours, validating our temporal analysis findings
+
+3. **Geographic Distribution (Middle Left):** Interactive map showing ride density across NYC boroughs, clearly illustrating Manhattan's dominance and sparse coverage in outer boroughs
+
+4. **Temporal Heatmap (Middle Right):** Day-of-week and hour-of-day heatmap revealing peak demand periods, with Friday evenings showing the highest activity levels
+
+5. **Distance vs Fare Scatter Plot (Bottom Left):** Correlation visualization demonstrating the strong linear relationship (r=0.799) between trip distance and fare amount
+
+6. **Borough Analysis (Bottom Right):** Bar chart comparing ride volumes across NYC boroughs, quantifying Manhattan's 97% market share
+
+### 8.2 Interactive Capabilities
+
+**User Experience Features:**
+- **Hover tooltips:** Detailed information on data points
+- **Zoom and pan:** Detailed exploration of specific data ranges
+- **Responsive design:** Optimal viewing across different screen sizes
+- **Export functionality:** High-quality image downloads for presentations
+
+### 8.3 Business Intelligence Value
+
+**Decision Support Benefits:**
+- **Real-time insights:** Immediate access to key performance metrics
+- **Pattern recognition:** Visual identification of trends and anomalies
+- **Stakeholder communication:** Professional presentation of complex data
+- **Operational planning:** Data-driven resource allocation and strategy development
+
+**Technical Implementation:**
+- **Technology Stack:** Plotly.js for interactive visualizations
+- **Data Integration:** Direct connection to cleaned and enhanced dataset
+- **Performance Optimization:** Efficient rendering of 178,267 data points
+- **Accessibility:** Web-based deployment for universal access
+
+This interactive dashboard serves as the culmination of our analytical work, transforming complex statistical findings into actionable business intelligence tools that can guide strategic decision-making in the ride-sharing industry.
+
+## 9. Conclusion
 
 This comprehensive analysis of the Uber Fares Dataset provides valuable insights into ride-sharing economics and operational patterns in New York City. Through rigorous statistical analysis of 178,267 rides representing $1.59M in revenue, we have identified key drivers of fare pricing and discovered actionable patterns for business optimization.
 

@@ -50,7 +50,8 @@ Uber-Fares-Dataset/
 │   ├── correlation_matrix.png
 │   ├── fare_prediction_factors.png
 │   ├── seasonal_analysis.png
-│   └── uber_interactive_dashboard.html
+│   ├── uber_interactive_dashboard.html
+│   └── uber_interactive_dashboard_screenshot.png
 ├── documentation/
 │   ├── tableau_dashboard_instructions.txt
 │   ├── ANALYSIS_REPORT.md                # 📋 Complete analysis report
@@ -149,9 +150,12 @@ Created 23 new features including:
    - Hour vs day heatmaps
 
 6. **Interactive Dashboard**
+   ![Interactive Dashboard](uber_interactive_dashboard_screenshot.png)
    - Multi-panel Plotly dashboard: [Open Dashboard](uber_interactive_dashboard.html)
-   - Geographic mapping with fare overlays
-   - Time-series analysis tools
+   - Six comprehensive visualization panels covering all key insights
+   - Geographic mapping with fare overlays and borough analysis
+   - Time-series analysis tools with hourly and temporal patterns
+   - Interactive features: hover tooltips, zoom, pan, and export capabilities
 
 ## 🎯 Business Recommendations
 
