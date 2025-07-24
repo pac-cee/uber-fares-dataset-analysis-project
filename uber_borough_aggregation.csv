@@ -1,0 +1,7 @@
+pickup_borough,rides_count,avg_fare,total_revenue,avg_distance,avg_passengers
+Bronx,184,8.82,1623.75,1.94,1.94
+Brooklyn,2567,10.7,27468.36,3.31,1.63
+Manhattan,172977,8.89,1537100.99,2.48,1.69
+Other,132,8.23,1086.3,2.31,2.05
+Queens,2396,11.27,26999.92,3.93,1.65
+Staten Island,11,7.35,80.8,0.72,1.82

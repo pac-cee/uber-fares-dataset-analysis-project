@@ -1,0 +1,71 @@
+
+TABLEAU PUBLIC DASHBOARD CREATION GUIDE
+======================================
+
+1. DATA CONNECTION:
+   • Open Tableau Public
+   • Connect to Text file: uber_tableau_ready.csv
+   • Also connect to the aggregated files for summary views
+
+2. RECOMMENDED DASHBOARD STRUCTURE:
+
+   A. OVERVIEW PAGE:
+      • KPI Cards: Total Rides, Revenue, Avg Fare, Avg Distance
+      • Fare Distribution Histogram
+      • Rides by Hour Line Chart
+      • Geographic Map with Pickup Locations
+
+   B. TEMPORAL ANALYSIS PAGE:
+      • Hourly Pattern Line Chart
+      • Daily Pattern Bar Chart
+      • Monthly Trends (if multiple months)
+      • Peak vs Off-Peak Comparison
+
+   C. GEOGRAPHIC ANALYSIS PAGE:
+      • NYC Map with Pickup/Dropoff Density
+      • Borough Comparison Charts
+      • Inter-Borough vs Intra-Borough Analysis
+      • Distance from Center Analysis
+
+   D. BUSINESS INSIGHTS PAGE:
+      • Fare Prediction Factors
+      • Revenue Optimization Opportunities
+      • Passenger Behavior Analysis
+      • Seasonal Patterns
+
+3. KEY VISUALIZATIONS TO CREATE:
+
+   • Map: Use pickup_lat_rounded, pickup_lon_rounded for performance
+   • Time Series: Use pickup_datetime for temporal analysis
+   • Heatmap: Hour vs Day of Week for fare patterns
+   • Scatter Plot: Distance vs Fare relationship
+   • Bar Charts: Borough, Time Period, Passenger Category comparisons
+
+4. FILTERS TO ADD:
+   • Date Range Filter
+   • Borough Filter
+   • Time Period Filter
+   • Distance Category Filter
+   • Passenger Count Filter
+
+5. CALCULATED FIELDS TO CREATE:
+   • Revenue per Hour = SUM([fare_amount]) / COUNT([pickup_hour])
+   • Efficiency Ratio = [trip_distance_km] / [fare_amount]
+   • Peak Hour Indicator = IF [pickup_hour] >= 7 AND [pickup_hour] <= 9 
+                          OR [pickup_hour] >= 17 AND [pickup_hour] <= 19 
+                          THEN "Peak" ELSE "Off-Peak" END
+
+6. DASHBOARD DESIGN TIPS:
+   • Use consistent color scheme
+   • Add interactive filters
+   • Include tooltips with relevant information
+   • Create drill-down capabilities
+   • Add trend lines where appropriate
+   • Use dashboard actions for interactivity
+
+7. PERFORMANCE OPTIMIZATION:
+   • Use data extracts instead of live connections
+   • Limit map visualizations to reasonable sample sizes
+   • Use aggregated data for summary views
+   • Consider using context filters for large datasets
+        
