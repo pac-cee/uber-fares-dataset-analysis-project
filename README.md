@@ -1,11 +1,22 @@
 # Uber Fares Dataset Analysis
 
+[![Analytics](https://img.shields.io/badge/Analytics-Advanced-blue.svg)](https://github.com/isaac-familoni)
+[![Data Science](https://img.shields.io/badge/Data%20Science-Professional-green.svg)](https://github.com/isaac-familoni)
+[![Business Intelligence](https://img.shields.io/badge/Business%20Intelligence-Executive-orange.svg)](https://github.com/isaac-familoni)
+[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Predictive-red.svg)](https://github.com/isaac-familoni)
+
 **Student Name:** Pacifique Bakundukize
+
 **Student ID:** 26798
+
 **Course:** Introduction to Big Data Analytics INSY 8413
+
 **Assignment:** Assignment I - Uber Fares Dataset Analysis
+
 **Tool:** Tableau Public (instead of Power BI)
+
 **Dataset:** Uber Fares Dataset from Kaggle
+
 **Date:** July 2025
 
 ## 📊 Project Overview
