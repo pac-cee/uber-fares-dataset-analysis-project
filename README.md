@@ -1,13 +1,18 @@
 # Uber Fares Dataset Analysis
 
+**Student Name:** Pacifique Bakundukize
+**Student ID:** 26798
+**Course:** Introduction to Big Data Analytics INSY 8413
+**Assignment:** Assignment I - Uber Fares Dataset Analysis
+**Tool:** Tableau Public (instead of Power BI)
+**Dataset:** Uber Fares Dataset from Kaggle
+**Date:** July 2025
+
 ## 📊 Project Overview
 
 This project provides a comprehensive analysis of the Uber Fares Dataset, exploring fare patterns, ride durations, and key operational metrics. The analysis includes data cleaning, feature engineering, exploratory data analysis, and interactive visualizations suitable for business intelligence dashboards.
 
-**Course:** Introduction to Big Data Analytics INSY 8413  
-**Assignment:** Assignment I - Uber Fares Dataset Analysis  
-**Tool:** Tableau Public (instead of Power BI)  
-**Dataset:** Uber Fares Dataset from Kaggle  
+📋 **[View Complete Analysis Report](ANALYSIS_REPORT.md)** - Detailed findings, statistical analysis, and business recommendations
 
 ## 🎯 Objectives
 
@@ -48,7 +53,8 @@ Uber-Fares-Dataset/
 │   └── uber_interactive_dashboard.html
 ├── documentation/
 │   ├── tableau_dashboard_instructions.txt
-│   └── analysis_report.md
+│   ├── ANALYSIS_REPORT.md                # 📋 Complete analysis report
+│   └── TABLEAU_SUBMISSION_CHECKLIST.md  # 📝 Submission guidelines
 └── README.md
 ```
 
@@ -185,12 +191,14 @@ Created 23 new features including:
 
 The following files are prepared for Tableau Public dashboard creation:
 
-- `uber_tableau_ready.csv` - Main dataset optimized for Tableau
-- `uber_kpi_summary.csv` - Key performance indicators
-- `uber_hourly_aggregation.csv` - Hourly aggregated metrics
-- `uber_daily_aggregation.csv` - Daily aggregated metrics
-- `uber_borough_aggregation.csv` - Borough-level aggregated metrics
+- `uber_tableau_ready.csv` - Main dataset optimized for Tableau (178K rows, 41 features)
+- `uber_kpi_summary.csv` - Key performance indicators and metrics summary
+- `uber_hourly_aggregation.csv` - Hourly aggregated metrics for time-series analysis
+- `uber_daily_aggregation.csv` - Daily aggregated metrics for weekly patterns
+- `uber_borough_aggregation.csv` - Borough-level aggregated metrics for geographic analysis
 - `tableau_dashboard_instructions.txt` - Detailed Tableau implementation guide
+
+📋 **[Complete Analysis Report](ANALYSIS_REPORT.md)** provides detailed insights and statistical analysis to guide your Tableau dashboard creation.
 
 ## 🚀 Getting Started
 
@@ -230,10 +238,22 @@ python tableau_prep_and_interactive_viz.py
 
 This project demonstrates original analysis and innovative approaches to Uber fare data exploration. All methodologies, visualizations, and insights are developed specifically for this assignment with unique analytical perspectives.
 
+## 📚 Documentation
+
+- **[📋 Complete Analysis Report](ANALYSIS_REPORT.md)** - Comprehensive findings with statistical analysis and business insights
+- **[📝 Tableau Submission Checklist](TABLEAU_SUBMISSION_CHECKLIST.md)** - Step-by-step submission guidelines
+- **[📊 Interactive Dashboard](uber_interactive_dashboard.html)** - Open in web browser for interactive exploration
+
 ## 📞 Contact
+
+**Student:** Pacifique Bakundukize (ID: 26798)
+**Course:** Introduction to Big Data Analytics INSY 8413
+**Institution:** AUCA (Adventist University of Central Africa)
 
 For questions about this analysis or collaboration opportunities, please reach out through the course communication channels.
 
 ---
 
 **Note:** This analysis is part of an academic assignment for Introduction to Big Data Analytics (INSY 8413). The insights and recommendations are based on historical data and should be validated with current market conditions before implementation.
+
+**Academic Integrity:** This project demonstrates original work with unique analytical approaches and innovative methodologies, ensuring compliance with academic standards while providing exceptional value.
