@@ -112,27 +112,38 @@ Created 23 new features including:
 ## 📊 Visualizations Created
 
 1. **Fare Distribution Analysis**
+   ![Fare Distribution Analysis](fare_distribution_analysis.png)
    - Histogram of fare amounts
    - Box plots for outlier identification
    - Fare patterns by time and location
 
 2. **Temporal Pattern Analysis**
+   ![Temporal Analysis](temporal_analysis.png)
    - Hourly ride volume patterns
    - Daily and monthly trends
    - Peak vs off-peak comparisons
 
 3. **Geographical Analysis**
+   ![Geographical Analysis](geographical_analysis.png)
    - NYC pickup location heatmaps
    - Borough comparison charts
    - Distance from city center analysis
 
 4. **Advanced Statistical Analysis**
+   ![Correlation Matrix](correlation_matrix.png)
+   ![Fare Prediction Factors](fare_prediction_factors.png)
    - Correlation matrix heatmap
    - Fare prediction factor analysis
    - Seasonal trend visualization
 
-5. **Interactive Dashboard**
-   - Multi-panel Plotly dashboard
+5. **Seasonal Analysis**
+   ![Seasonal Analysis](seasonal_analysis.png)
+   - Monthly and yearly trends
+   - Day of week patterns
+   - Hour vs day heatmaps
+
+6. **Interactive Dashboard**
+   - Multi-panel Plotly dashboard: [Open Dashboard](uber_interactive_dashboard.html)
    - Geographic mapping with fare overlays
    - Time-series analysis tools
 
