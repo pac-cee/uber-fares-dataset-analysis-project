@@ -354,6 +354,8 @@ We created 23 new features across four categories, significantly enhancing the a
 
 To provide a comprehensive and accessible view of our analysis findings, we developed an interactive dashboard that consolidates all key insights into a single, user-friendly interface.
 
+**🌐 Live Dashboard:** [https://pac-cee.github.io/uber-fares-dataset-analysis-project/](https://pac-cee.github.io/uber-fares-dataset-analysis-project/)
+
 ![Uber Interactive Dashboard](../visualizations/uber_interactive_dashboard_screenshot.png)
 *Figure 12: Interactive Dashboard Overview - Comprehensive visualization suite showing fare distribution, temporal patterns, geographic analysis, and key performance indicators*
 

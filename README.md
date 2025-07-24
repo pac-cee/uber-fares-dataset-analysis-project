@@ -151,6 +151,7 @@ Created 23 new features including:
 
 6. **Interactive Dashboard**
    ![Interactive Dashboard](visualizations/uber_interactive_dashboard_screenshot.png)
+   - **🌐 Live Dashboard:** [https://pac-cee.github.io/uber-fares-dataset-analysis-project/](https://pac-cee.github.io/uber-fares-dataset-analysis-project/)
    - Multi-panel Plotly dashboard: [Open Dashboard](visualizations/uber_interactive_dashboard.html)
    - Six comprehensive visualization panels covering all key insights
    - Geographic mapping with fare overlays and borough analysis
@@ -234,7 +235,8 @@ python tableau_prep_and_interactive_viz.py
 
 ## 📊 Dashboard Access
 
-- **Interactive HTML Dashboard:** Open `visualizations/uber_interactive_dashboard.html` in a web browser
+- **🌐 Live Interactive Dashboard:** [https://pac-cee.github.io/uber-fares-dataset-analysis-project/](https://pac-cee.github.io/uber-fares-dataset-analysis-project/)
+- **Local HTML Dashboard:** Open `visualizations/uber_interactive_dashboard.html` in a web browser
 - **Tableau Public:** Use the prepared CSV files with the provided instructions
 - **Static Visualizations:** PNG files in the visualizations folder
 
@@ -245,8 +247,9 @@ This project demonstrates original analysis and innovative approaches to Uber fa
 ## 📚 Documentation
 
 - **[📋 Complete Analysis Report](documentation/ANALYSIS_REPORT.md)** - Comprehensive findings with statistical analysis and business insights
-- **[📝 Tableau Submission Checklist](TABLEAU_SUBMISSION_CHECKLIST.md)** - Step-by-step submission guidelines
-- **[📊 Interactive Dashboard](visualizations/uber_interactive_dashboard.html)** - Open in web browser for interactive exploration
+- **[📝 Tableau Submission Checklist](documentation/TABLEAU_SUBMISSION_CHECKLIST.md)** - Step-by-step submission guidelines
+- **[🌐 Live Interactive Dashboard](https://pac-cee.github.io/uber-fares-dataset-analysis-project/)** - GitHub Pages deployment for interactive exploration
+- **[📊 Local Interactive Dashboard](visualizations/uber_interactive_dashboard.html)** - Open in web browser for local interactive exploration
 
 ## 📞 Contact
 

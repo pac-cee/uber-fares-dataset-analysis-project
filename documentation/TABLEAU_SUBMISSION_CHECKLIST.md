@@ -99,7 +99,8 @@ Please find my Assignment I submission for Uber Fares Dataset Analysis:
 - Workbook File: Attached uber_fares_analysis.twbx
 
 📁 GitHub Repository:
-- Repository Link: [Your GitHub Repository URL]
+- Repository Link: https://github.com/pac-cee/uber-fares-dataset-analysis-project
+- Live Dashboard: https://pac-cee.github.io/uber-fares-dataset-analysis-project/
 - Contains: Cleaned datasets, analysis scripts, visualizations, documentation
 
 📋 Key Deliverables:
@@ -127,6 +128,7 @@ Before submission, verify:
 - [ ] All visualizations are clear and professional
 - [ ] Interactive features work properly
 - [ ] GitHub repository is public
+- [ ] GitHub Pages is enabled and dashboard is live at: https://pac-cee.github.io/uber-fares-dataset-analysis-project/
 - [ ] All required files are included
 - [ ] Screenshots are high-quality and informative
 - [ ] Documentation is comprehensive
