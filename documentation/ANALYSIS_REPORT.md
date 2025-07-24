@@ -17,7 +17,7 @@ This comprehensive analysis of the Uber Fares Dataset reveals significant insigh
 - Peak demand occurs at 7 PM on Fridays
 - Manhattan dominates with 97% of all rides
 
-![Data Loading Process](data_loading_process.png)
+![Data Loading Process](../visualizations/data_loading_process.png)
 *Figure 1: Data processing pipeline showing the progression from raw data to enhanced analytics-ready dataset*
 
 ## 1. Introduction
@@ -53,7 +53,7 @@ The original dataset contained several data quality issues:
 ### 2.2 Data Cleaning Process
 Our systematic cleaning approach achieved a 89.13% data retention rate:
 
-![Data Cleaning Results](data_cleaning_results.png)
+![Data Cleaning Results](../visualizations/data_cleaning_results.png)
 *Figure 2: Comprehensive data cleaning process showing before/after comparisons and cleaning impact analysis*
 
 | Cleaning Step | Rows Removed | Percentage | Rationale |
@@ -70,7 +70,7 @@ The data cleaning process was particularly rigorous in handling fare outliers. U
 ### 2.3 Feature Engineering
 We created 23 new features across four categories, significantly enhancing the analytical depth of the dataset:
 
-![Feature Engineering Output](feature_engineering_output.png)
+![Feature Engineering Output](../visualizations/feature_engineering_output.png)
 *Figure 3: Feature engineering process showing the creation of 23 new analytical features across temporal, distance, location, and passenger categories*
 
 **Temporal Features (10):**
@@ -99,7 +99,7 @@ We created 23 new features across four categories, significantly enhancing the a
 
 ### 3.1 Fare Distribution Analysis
 
-![Fare Distribution Analysis](fare_distribution_analysis.png)
+![Fare Distribution Analysis](../visualizations/fare_distribution_analysis.png)
 *Figure 4: Comprehensive fare distribution analysis showing histograms, box plots, and fare patterns across different dimensions including time periods, days of week, passenger counts, and distance categories*
 
 **Key Statistics:**
@@ -120,7 +120,7 @@ We created 23 new features across four categories, significantly enhancing the a
 
 ### 3.2 Temporal Patterns
 
-![Temporal Analysis](temporal_analysis.png)
+![Temporal Analysis](../visualizations/temporal_analysis.png)
 *Figure 5: Temporal pattern analysis showing hourly ride volumes, daily patterns, peak vs off-peak comparisons, and monthly trends with dual-axis visualizations for rides and fares*
 
 **Hourly Patterns:**
@@ -146,7 +146,7 @@ We created 23 new features across four categories, significantly enhancing the a
 
 ### 3.3 Geographical Analysis
 
-![Geographical Analysis](geographical_analysis.png)
+![Geographical Analysis](../visualizations/geographical_analysis.png)
 *Figure 6: Geographical pattern analysis including pickup location scatter plots colored by fare amount, borough ride distribution, inter-borough vs intra-borough trip analysis, and distance from city center fare patterns*
 
 **Borough Distribution:**
@@ -173,7 +173,7 @@ We created 23 new features across four categories, significantly enhancing the a
 
 ### 4.1 Correlation Analysis
 
-![Correlation Matrix](correlation_matrix.png)
+![Correlation Matrix](../visualizations/correlation_matrix.png)
 *Figure 7: Comprehensive correlation matrix heatmap showing relationships between all numerical features, with masked upper triangle for clarity and color-coded correlation strengths*
 
 **Strongest Correlations with Fare Amount:**
@@ -199,7 +199,7 @@ We created 23 new features across four categories, significantly enhancing the a
 
 ### 4.2 Statistical Significance Testing
 
-![Fare Prediction Factors](fare_prediction_factors.png)
+![Fare Prediction Factors](../visualizations/fare_prediction_factors.png)
 *Figure 8: Comprehensive analysis of factors affecting fare amounts including distance relationships, hourly patterns with confidence intervals, passenger category distributions, weekend vs weekday comparisons, and borough-level fare variations*
 
 **Key Findings:**
@@ -240,7 +240,7 @@ We created 23 new features across four categories, significantly enhancing the a
 
 ### 4.4 Seasonal Analysis
 
-![Seasonal Analysis](seasonal_analysis.png)
+![Seasonal Analysis](../visualizations/seasonal_analysis.png)
 *Figure 9: Seasonal patterns and trends analysis showing monthly fare trends with ride volume overlay, yearly progression, daily patterns across the week, and hour vs day heatmap revealing optimal pricing periods*
 
 **Seasonal Insights:**
@@ -354,7 +354,7 @@ We created 23 new features across four categories, significantly enhancing the a
 
 To provide a comprehensive and accessible view of our analysis findings, we developed an interactive dashboard that consolidates all key insights into a single, user-friendly interface.
 
-![Uber Interactive Dashboard](uber_interactive_dashboard_screenshot.png)
+![Uber Interactive Dashboard](../visualizations/uber_interactive_dashboard_screenshot.png)
 *Figure 12: Interactive Dashboard Overview - Comprehensive visualization suite showing fare distribution, temporal patterns, geographic analysis, and key performance indicators*
 
 ### 8.1 Dashboard Features

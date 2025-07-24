@@ -12,7 +12,7 @@
 
 This project provides a comprehensive analysis of the Uber Fares Dataset, exploring fare patterns, ride durations, and key operational metrics. The analysis includes data cleaning, feature engineering, exploratory data analysis, and interactive visualizations suitable for business intelligence dashboards.
 
-📋 **[View Complete Analysis Report](ANALYSIS_REPORT.md)** - Detailed findings, statistical analysis, and business recommendations
+📋 **[View Complete Analysis Report](documentation/ANALYSIS_REPORT.md)** - Detailed findings, statistical analysis, and business recommendations
 
 ## 🎯 Objectives
 
@@ -119,39 +119,39 @@ Created 23 new features including:
 ## 📊 Visualizations Created
 
 1. **Fare Distribution Analysis**
-   ![Fare Distribution Analysis](fare_distribution_analysis.png)
+   ![Fare Distribution Analysis](visualizations/fare_distribution_analysis.png)
    - Histogram of fare amounts
    - Box plots for outlier identification
    - Fare patterns by time and location
 
 2. **Temporal Pattern Analysis**
-   ![Temporal Analysis](temporal_analysis.png)
+   ![Temporal Analysis](visualizations/temporal_analysis.png)
    - Hourly ride volume patterns
    - Daily and monthly trends
    - Peak vs off-peak comparisons
 
 3. **Geographical Analysis**
-   ![Geographical Analysis](geographical_analysis.png)
+   ![Geographical Analysis](visualizations/geographical_analysis.png)
    - NYC pickup location heatmaps
    - Borough comparison charts
    - Distance from city center analysis
 
 4. **Advanced Statistical Analysis**
-   ![Correlation Matrix](correlation_matrix.png)
-   ![Fare Prediction Factors](fare_prediction_factors.png)
+   ![Correlation Matrix](visualizations/correlation_matrix.png)
+   ![Fare Prediction Factors](visualizations/fare_prediction_factors.png)
    - Correlation matrix heatmap
    - Fare prediction factor analysis
    - Seasonal trend visualization
 
 5. **Seasonal Analysis**
-   ![Seasonal Analysis](seasonal_analysis.png)
+   ![Seasonal Analysis](visualizations/seasonal_analysis.png)
    - Monthly and yearly trends
    - Day of week patterns
    - Hour vs day heatmaps
 
 6. **Interactive Dashboard**
-   ![Interactive Dashboard](uber_interactive_dashboard_screenshot.png)
-   - Multi-panel Plotly dashboard: [Open Dashboard](uber_interactive_dashboard.html)
+   ![Interactive Dashboard](visualizations/uber_interactive_dashboard_screenshot.png)
+   - Multi-panel Plotly dashboard: [Open Dashboard](visualizations/uber_interactive_dashboard.html)
    - Six comprehensive visualization panels covering all key insights
    - Geographic mapping with fare overlays and borough analysis
    - Time-series analysis tools with hourly and temporal patterns
@@ -234,7 +234,7 @@ python tableau_prep_and_interactive_viz.py
 
 ## 📊 Dashboard Access
 
-- **Interactive HTML Dashboard:** Open `uber_interactive_dashboard.html` in a web browser
+- **Interactive HTML Dashboard:** Open `visualizations/uber_interactive_dashboard.html` in a web browser
 - **Tableau Public:** Use the prepared CSV files with the provided instructions
 - **Static Visualizations:** PNG files in the visualizations folder
 
@@ -244,9 +244,9 @@ This project demonstrates original analysis and innovative approaches to Uber fa
 
 ## 📚 Documentation
 
-- **[📋 Complete Analysis Report](ANALYSIS_REPORT.md)** - Comprehensive findings with statistical analysis and business insights
+- **[📋 Complete Analysis Report](documentation/ANALYSIS_REPORT.md)** - Comprehensive findings with statistical analysis and business insights
 - **[📝 Tableau Submission Checklist](TABLEAU_SUBMISSION_CHECKLIST.md)** - Step-by-step submission guidelines
-- **[📊 Interactive Dashboard](uber_interactive_dashboard.html)** - Open in web browser for interactive exploration
+- **[📊 Interactive Dashboard](visualizations/uber_interactive_dashboard.html)** - Open in web browser for interactive exploration
 
 ## 📞 Contact
 
