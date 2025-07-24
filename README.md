@@ -247,7 +247,6 @@ This project demonstrates original analysis and innovative approaches to Uber fa
 ## 📚 Documentation
 
 - **[📋 Complete Analysis Report](documentation/ANALYSIS_REPORT.md)** - Comprehensive findings with statistical analysis and business insights
-- **[📝 Tableau Submission Checklist](documentation/TABLEAU_SUBMISSION_CHECKLIST.md)** - Step-by-step submission guidelines
 - **[🌐 Live Interactive Dashboard](https://pac-cee.github.io/uber-fares-dataset-analysis-project/)** - GitHub Pages deployment for interactive exploration
 - **[📊 Local Interactive Dashboard](visualizations/uber_interactive_dashboard.html)** - Open in web browser for local interactive exploration
 

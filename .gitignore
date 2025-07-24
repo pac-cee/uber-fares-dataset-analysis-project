@@ -7,6 +7,9 @@ project_instructions.txt
 *_tutorial.txt
 README_instructions.md
 
+# Assignment-specific submission files (keep private)
+documentation/TABLEAU_SUBMISSION_CHECKLIST.md
+
 # Python virtual environment
 uber_analysis_env/
 venv/
