@@ -64,9 +64,8 @@ Uber-Fares-Dataset/
 │   ├── uber_interactive_dashboard.html
 │   └── uber_interactive_dashboard_screenshot.png
 ├── documentation/
-│   ├── tableau_dashboard_instructions.txt
 │   ├── ANALYSIS_REPORT.md                # 📋 Complete analysis report
-│   └── TABLEAU_SUBMISSION_CHECKLIST.md  # 📝 Submission guidelines
+│   └── METHODOLOGY_FRAMEWORK.md          # 📊 Methodology framework
 └── README.md
 ```
 
