@@ -1,4 +1,4 @@
-# Uber Fares Dataset Analysis
+# Uber Fares Dataset Analysis Project
 
 [![Analytics](https://img.shields.io/badge/Analytics-Advanced-blue.svg)](https://github.com/isaac-familoni)
 [![Data Science](https://img.shields.io/badge/Data%20Science-Professional-green.svg)](https://github.com/isaac-familoni)
