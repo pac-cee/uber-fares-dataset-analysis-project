@@ -1,9 +1,9 @@
 # Uber Fares Dataset Analysis Project
 
-[![Analytics](https://img.shields.io/badge/Analytics-Advanced-blue.svg)](https://github.com/isaac-familoni)
-[![Data Science](https://img.shields.io/badge/Data%20Science-Professional-green.svg)](https://github.com/isaac-familoni)
-[![Business Intelligence](https://img.shields.io/badge/Business%20Intelligence-Executive-orange.svg)](https://github.com/isaac-familoni)
-[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Predictive-red.svg)](https://github.com/isaac-familoni)
+[![Analytics](https://img.shields.io/badge/Analytics-Advanced-blue.svg)](https://github.com/pac-cee)
+[![Data Science](https://img.shields.io/badge/Data%20Science-Professional-green.svg)](https://github.com/pac-cee)
+[![Business Intelligence](https://img.shields.io/badge/Business%20Intelligence-Executive-orange.svg)](https://github.com/pac-cee)
+[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Predictive-red.svg)](https://github.com/pac-cee)
 
 **Student Name:** Pacifique Bakundukize
 
